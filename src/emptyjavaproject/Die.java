@@ -23,6 +23,7 @@ public class Die {
                 
         return num;
     }
+    
 
 }
 
