@@ -7,15 +7,19 @@ package emptyjavaproject;
 
 /**
  *
- * @author paul.kline
+ * @author allyn.bowdre
  */
-public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Roller {
+    
+    public Roller(){
+        
     }
     
+    public static int roll(){
+        int num = 0;
+        
+        num = (int)(Math.random()*6+1);
+                
+        return num;
+    }
 }
