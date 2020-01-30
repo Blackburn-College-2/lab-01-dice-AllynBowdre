@@ -14,11 +14,11 @@ public class Roller {
         
     }
     
-    public static int roll(){
-        int num = 0;
-        
-        num = (int)(Math.random()*6+1);
+    public int roll(){
+        int ans, num = 12;
+
+        ans = (int)(Math.random()*num+1);
                 
-        return num;
+        return ans;
     }
 }

@@ -18,8 +18,8 @@ public class Die {
     }
     public int roll(){
         int num = 0;
-        
-        num = Roller.roll();
+        Roller run = new Roller();
+        num = run.roll();
                 
         return num;
     }

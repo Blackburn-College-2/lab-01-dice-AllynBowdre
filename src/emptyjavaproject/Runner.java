@@ -10,7 +10,7 @@ public class Runner {
      * @param args the command line arguments
      */
     
-    //Time estimate 1 hour
+    //TIME ESTIMATE 1 HOUR
     
     public static void main(String[] args) {
         Die run = new Die();
